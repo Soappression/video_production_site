@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Personal Site Sketch</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background: linear-gradient(to bottom right, #d8b4e2, #6b2e7a);
+  }
+
+  header {
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px black;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+
+  nav a:hover {
+    color: #158cc3;
+  }
+
+.border-wrapper {
+  position: relative;
+  background: linear-gradient(to bottom right, #0c5c84, #158cc3);
+  background-size: 300% 100%;
+  background-position: 50% 50%;
+  padding: 10px; /* creates space that looks like a border */
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.content {
+  position: relative;
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px; /* slightly smaller to match inside */
+}
+
+
+  .table-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+  }
+
+  .table-buttons button {
+    background-color: transparent;
+    border: 2px solid #158cc3;
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .table-buttons button:hover {
+    background-color: #158cc3;
+    color: white;
+  }
+
+  main {
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  p {
+    font-size: 1.1rem;
+    text-shadow: 1px 1px 3px black;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 3px solid #158cc3;
+  }
+</style>
+</head>
+<body>
+
+<header class="border-wrapper">
+ <div class="content">
+  Welcome to My Personal Site
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Projects</a>
+    <a href="#">Contact</a>
+  </nav>
+ </div>
+</header>
+
+<div class="table-buttons">
+  <button>&#8592;</button>
+  <button>&#8594;</button>
+</div>
+
+<main>
+  <p>This site is a collection of everything I love to create. Whether it's videos, games, or websites, this space is my digital home.
+  Bright magenta lines guide you, soft purple skies surround you, and bright blue highlights hint at where to look next.</p>
+</main>
+
+<footer>
+  &copy; 2024 Justin Poplin
+</footer>
+
+</body>
+</html>

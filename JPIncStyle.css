@@ -1,0 +1,222 @@
+html{
+	
+}
+
+body
+{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    background:linear-gradient(to bottom right, #d8b4e2, #6b2e7a);
+}
+
+.head {
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px black;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    font-size: 1.25rem;
+    transition: color 0.3s ease;
+    
+}
+
+nav a:hover {
+    color: #158cc3;
+}
+p{
+    color:#ffffff;
+    font-weight: 1000;
+    font-size: 20px;
+    letter-spacing: 1.5;
+    line-height: 1.7;
+    text-shadow: 2px 2px 4px #000000;
+}
+h1
+{
+	text-align: center;
+	font-family: Times, "Times New Roman", "serif";
+	font-size: 36;
+	font-weight: bold;
+}
+
+h2
+{
+	text-align: center;
+	font-family: Times, "Times New Roman", "serif";
+	font-size: 26;
+	
+}
+
+h3{
+    font-size: 22px;
+}
+
+
+
+hr{
+    border: none;
+    height: 7px;
+    background: radial-gradient(circle, #9b2096, #f21be2);
+    background-size: 6000% 100%;
+    background-position: 0% 50%;
+    margin: 50px 0;
+    transition: background-position 0.2s ease;
+}
+
+.texthead
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14;
+}
+
+.vsplit
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.section-left, .section-right
+{
+    padding: 10px;
+}
+
+.vp
+{
+    align-items: center;
+    background: radial-gradient(circle, #0c5c84, #158cc3);
+    border-color:#158cc3;
+    border-style:ridge;
+    border-width: 20px;
+    box-sizing: border-box;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+}
+
+.tables {
+    border: 20px solid transparent;
+    background: 
+    linear-gradient(to bottom left, #d8b4e2, #6b2e7a) padding-box,
+    linear-gradient(to bottom right, #094b6d, #158cc3) border-box;
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    background-size: 600% 100%, 600% 100%;
+    background-position: 50% 50%, 50% 50%;
+    border-radius: 10px;
+    box-shadow:
+        0 0 25px 5px #158cc3,
+        0 0 10px 2px #f21be2;
+}
+
+.table-wrap {
+    position: relative;
+    width: 100%;
+    padding: 60px 20px 20px 20px; 
+    box-sizing: border-box;
+    text-align: center; 
+    background-color: transparent;
+}
+
+.table-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    padding: 0px 0px;
+    box-sizing: border-box;
+}
+
+.table-buttons button {
+    color: #ffffff;
+    cursor: pointer;
+    background-color: transparent;
+    border: 3px solid #158cc3;
+    border-radius: 50px;
+    font-size: 18px;
+    height: 50px;
+    margin: 0 10px;
+    padding: 10px 20px;
+    transition: background-color 0.4s ease;
+    width: 150px;
+}
+
+.table-buttons button:hover {
+    background-color: #158cc3;
+}
+
+.table-buttons button:active {
+    background-color: #9b2096;
+}
+
+.table-buttons button:focus {
+    outline: none;
+}
+.prevButton {
+    margin-left: 10px;               
+}
+
+.nextButton {
+    margin-right: 10px;              
+}
+
+
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+}
+.left
+{
+    justify-self: left;
+    text-align: center;
+    margin-left: 25px;
+    padding: 10px;
+}
+
+.left > h3
+{text-align: center;}
+
+.center
+{
+    justify-self: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.right
+{
+    justify-self: center;
+    text-align: center;
+    margin-right: 25px;
+    padding: 10px;
+}
+
+.right > h3
+{text-align: center;}
+
+
+footer
+{
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
+	background-color: whitesmoke;
+    font-size: 18;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 5px solid #158cc3;
+}
+
+footer > a
+{
+	text-decoration: none;
+	color: black;
+}
